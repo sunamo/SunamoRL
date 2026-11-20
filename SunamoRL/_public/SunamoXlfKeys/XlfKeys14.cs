@@ -103,7 +103,7 @@ public partial class XlfKeys
     public const string errorFailedToGetDomainOfAllowedPage = "errorFailedToGetDomainOfAllowedPage";
     public const string errorCommentHasAlreadyBeenDeletedByUserOrAdmin = "errorCommentHasAlreadyBeenDeletedByUserOrAdmin";
     public const string NoCommentFound = "NoCommentFound";
-    public const string errorMssNebylWid = "errorMssNebylWid";
+    public const string errorMssWasNotWid = "errorMssNebylWid";
     public const string errorDomainWasFoundButNotWithThisPage = "errorDomainWasFoundButNotWithThisPage";
     public const string errorSuchADomainWasNotFoundInTheDatabase = "errorSuchADomainWasNotFoundInTheDatabase";
     public const string errorCommentReturnCodeWasNotImplementedForThisSite = "errorCommentReturnCodeWasNotImplementedForThisSite";
@@ -156,7 +156,7 @@ public partial class XlfKeys
     public const string ThisSiteSAdministratorHasDisabledCommentsForYourAccount = "ThisSiteSAdministratorHasDisabledCommentsForYourAccount";
     public const string addNewPage = "addNewPage";
     public const string addNewDiscussion = "addNewDiscussion";
-    public const string Diskuse = "Diskuse";
+    public const string Discussion = "Diskuse";
     public const string Domain = "Domain";
     public const string ReportSpammer = "ReportSpammer";
     public const string NewDomain = "NewDomain";
@@ -187,7 +187,7 @@ public partial class XlfKeys
     public const string errorYouWereNotLoggedInAsAdmin = "errorYouWereNotLoggedInAsAdmin";
     public const string errorScWasNotTheCorrectCharacters = "errorScWasNotTheCorrectCharacters";
     public const string errorFailedToGetTheDictionaryFromLayer = "errorFailedToGetTheDictionaryFromLayer";
-    public const string successTabulka = "successTabulka";
+    public const string successTable = "successTabulka";
     public const string NotAllNecessaryParametersWerePassed = "NotAllNecessaryParametersWerePassed";
     public const string AllTaggedBlogpostsHaveBeenUnmarkedAsDraftUnpublished = "AllTaggedBlogpostsHaveBeenUnmarkedAsDraftUnpublished";
     public const string AnEmptyBlogpostListHasBeenSubmittedForPublication = "AnEmptyBlogpostListHasBeenSubmittedForPublication";
