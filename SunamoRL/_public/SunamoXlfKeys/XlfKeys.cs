@@ -1,7 +1,7 @@
 namespace SunamoRL._public.SunamoXlfKeys;
 
-// Musí tu zůstat - v SunamoShared jsou stovky výskytů
-// V dalších app potom dalších stovky
+// Must stay here - there are hundreds of occurrences in SunamoShared
+// In other apps then hundreds more
 public partial class XlfKeys
 {
 #pragma warning disable SA1303
