@@ -2,6 +2,9 @@ namespace SunamoRL.RL;
 
 using SunamoRL.Interfaces;
 
+/// <summary>
+/// Represents the RL type.
+/// </summary>
 public class RL
 {
     private static class Xaml
@@ -14,12 +17,18 @@ public class RL
         }
     }
 
+    /// <summary>
+    /// The lang.
+    /// </summary>
     public static LangsShared Lang
     {
         set => ThisApp.Lang = value;
         get => ThisApp.Lang;
     }
 
+    /// <summary>
+    /// Gets or sets the loader.
+    /// </summary>
     public static IResourceHelper Loader { get; set; } = null!;
 
     private static int langsLength = 0;
@@ -29,6 +38,9 @@ public class RL
         langsLength = Enum.GetValues(typeof(LangsShared)).Length;
     }
 
+    /// <summary>
+    /// Initializes a new instance of the initialize class.
+    /// </summary>
     public static void Initialize(LangsShared lang)
     {
         RL.Lang = lang;
