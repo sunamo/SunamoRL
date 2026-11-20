@@ -29,7 +29,6 @@ global using SunamoRL._public;
 global using SunamoRL._public.SunamoData.Data;
 global using SunamoRL._public.SunamoEnums.Enums;
 global using SunamoRL._public.SunamoInterfaces.Interfaces;
-global using SunamoRL._public.SunamoXlfKeys;
 global using Diacritics.Extensions;
 global using System;
 global using System.Collections;
